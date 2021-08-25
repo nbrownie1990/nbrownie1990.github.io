@@ -555,9 +555,6 @@
               name: the person's/ company’s name<br />
               address: where the action takes place<br />
               strength: the person's/ company’s strength<br />
-              <br />
-              <br />
-
               perfectMatch: a function that returns true if the person passed in
               is a perfect match
               <br />
@@ -578,7 +575,7 @@
               <br />
               <br />
 
-              let ninaB = {<br />
+              let jobApplicant = {<br />
 
               name: "Nina Braunger",<br />
 
@@ -595,14 +592,14 @@
               <br />
               <br />
 
-              function JobApplication(ninaB, potentialEmployer) {<br />
+              function JobApplication(jobApplicant, potentialEmployer) {<br />
 
-              console.log(`${potentialEmployer.name}: Will you hire me?`);<br />
+              console.log(`${jobApplicant.name}: Hey, ${potentialEmployer.name} will you hire me?`);<br />
               <br />
               <br />
 
-              let perfect = ninaB.perfectMatch(potentialEmployer) &&
-              potentialEmployer.perfectMatch(ninaB);<br />
+              let perfect = jobApplicant.perfectMatch(potentialEmployer) &&
+              potentialEmployer.perfectMatch(jobApplicant);<br />
 
               console.log(`${potentialEmployer.name}: ${perfect ? "Yes!" :
               "No"}`);<br />
@@ -613,11 +610,11 @@
               <br />
               <br />
 
-              if (JobApplication(ninaB, potentialEmployer) == "Yes!") {<br />
+              if (JobApplication(jobApplicant, potentialEmployer) == "Yes!") {<br />
 
               do {<br />
 
-              ninaB.state = "Happy", potentialEmployer.state = "Happy";<br />
+              jobApplicant.state = "Happy", potentialEmployer.state = "Happy";<br />
 
               } while (true);<br />
             </p>
