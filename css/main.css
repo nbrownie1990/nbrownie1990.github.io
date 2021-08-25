@@ -38,7 +38,7 @@ section {
 }
 
 a {
-  color: lightgrey;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
