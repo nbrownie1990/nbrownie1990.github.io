@@ -314,7 +314,11 @@ header {
   width: 100%;
 }
 
-.fa:hover {
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-xing:hover,
+.fa-id-badge:hover,
+.fa-file:hover{
   background: transparent;
   color: var(--primary-color);
 }
