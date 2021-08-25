@@ -293,6 +293,7 @@ header {
   text-align: center;
   grid-area: content;
 }
+
 .about-details p {
   font-size: 1.2rem;
   line-height: 1.5em;
@@ -1102,7 +1103,33 @@ input[type="submit"]:hover {
 }
 @media screen and (min-width: 1100px) {
   .hero-img img {
-    width: 30%;
+    width: 55%;
+  }
+
+  .about-details p {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin: 2rem 2rem 4rem 2rem;
+  }
+
+  .portfolio-item {
+    justify-content: space-evenly;
+  }
+
+  .portfolio-img {
+    text-align: center;
+    width: 40%;
+  }
+
+  .portfolio-img img{
+    width: 40%;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .portfolio-description{
+    text-align: left;
+    margin-right: 20rem;
   }
 
   .cd-horizontal-timeline {
