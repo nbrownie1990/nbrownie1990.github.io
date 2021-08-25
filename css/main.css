@@ -1041,10 +1041,6 @@ input[type="submit"]:hover {
     align-items: center;
   }
 
-  .profile-img {
-    margin: 0;
-  }
-
   .about-heading h1 {
     font-size: 8rem;
   }
@@ -1066,13 +1062,12 @@ input[type="submit"]:hover {
     height: 7rem;
   }
 
-  .icon-container i {
-    font-size: 4rem;
+  .icon-container .fa{
     position: absolute;
-    bottom: 2.5rem;
-    right: 1rem;
-    top: 0rem;
-    left: -2.2rem;
+    font-size: 4rem;
+    left: -5.25rem;
+    top: -0.95rem;
+    right: -5.25rem;
   }
 
   .portfolio-img img {
