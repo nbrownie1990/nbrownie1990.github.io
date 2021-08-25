@@ -314,10 +314,9 @@ header {
   width: 100%;
 }
 
-.fa-instagram:hover,
-.fa-linkedin:hover {
+.fa:hover {
   background: transparent;
-  color: white;
+  color: var(--primary-color);
 }
 
 /* End About */
