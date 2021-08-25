@@ -544,6 +544,7 @@
           <div class="skill-box">
             <h1>The Code of Job Application</h1>
             <p class="code">
+                                          
               possible answers to a JobApplication (yes/no)<br />
               const ApplicationState = {No : 0, Yes : 1 };
               <br /><br />
@@ -551,7 +552,7 @@
               const State = {Happy: 0, Neutral: 1, Sad: 2 };
               <br />
               <br />
-              An object. Takes four parameters:<br />
+              An object. Takes a few parameters, such as:<br />
               name: the person's/ company’s name<br />
               address: where the action takes place<br />
               strength: the person's/ company’s strength<br />
@@ -561,43 +562,41 @@
               <br />
 
               let potentialEmployer = {<br />
-
               name: "Your Company", <br />
-
-              address: "Your adress", <br />
-
+              id: "company",<br />
+              location: "hamburg", <br />
+              type: "very cool company",<br />
+              status: "unknown",<br />
               strength: „change as a success factor“,<br />
-
               perfectMatch: function(jobApplicant) {<br />
-
-              return this.name == "jobApplicant" && potentialEmployer.address ==
-              "Applicant hired";}};
+              return this.name === "jobApplicant" && potentialEmployer.status ==
+              "ready to hire";}<br />
+              };
               <br />
               <br />
 
               let jobApplicant = {<br />
-
               name: "Nina Braunger",<br />
-
-              address: "top-secret",<br />
-
-              strength: „spirit of discovery“,<br />
-
+              id: "developer",<br />
+              location: "hamburg",<br />
+              type: "auto-didactic",<br />
+              status: "ready to start",<br />
+              strength: ["spirit of discovery", "never give up", "open-minded", "curiosity"]<br />
+              willingnessToLearn: function(){<br/>
+              technologies.querySelectorAll('[class="new_and_helpful"]');<br />
+              willingnessToLearn.forEach(challenge => {mySelf.learn(challenges);});<br />
+      
               perfectMatch: function(potentialEmployer) {<br />
-
-              return potentialEmployer.name == "Your Company" &&
-              potentialEmployer.address == "Lets get started";<br />
-
+              return potentialEmployer.name === "Your Company" &&
+              potentialEmployer.status === "ready to start";<br />
               }};
               <br />
               <br />
 
               function JobApplication(jobApplicant, potentialEmployer) {<br />
-
               console.log(`${jobApplicant.name}: Hey, ${potentialEmployer.name} will you hire me?`);<br />
               <br />
               <br />
-
               let perfect = jobApplicant.perfectMatch(potentialEmployer) &&
               potentialEmployer.perfectMatch(jobApplicant);<br />
 
@@ -617,6 +616,7 @@
               jobApplicant.state = "Happy", potentialEmployer.state = "Happy";<br />
 
               } while (true);<br />
+   
             </p>
           </div>
         </div>
