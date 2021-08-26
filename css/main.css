@@ -319,8 +319,7 @@ header {
 .fa-xing:hover,
 .fa-id-badge:hover,
 .fa-file:hover{
-  background: transparent;
-  color: var(--primary-color);
+    -webkit-text-fill-color: var(--primary-color);
 }
 
 /* End About */
