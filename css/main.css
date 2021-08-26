@@ -976,6 +976,17 @@ input[type="submit"]:hover {
 
 /* End Animations */
 
+/* Start Cookies */
+.cc-box {
+  color: #6c63ff;
+  border-radius: 2rem;
+}
+
+.cc-btn {
+  border-radius: 1.5rem;
+}
+/* End Cookies */
+
 /* Media Queries */
 @media screen and (min-width: 480px) {
   .menu-toggler {

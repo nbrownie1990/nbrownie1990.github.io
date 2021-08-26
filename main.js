@@ -35,13 +35,13 @@ const CookieConsent = window.CookieConsent;
 
 // Initialize the popup and open it
 const cc = new CookieConsent({
-  title: "We use cookies 🍪",
+  title: "I use cookies 🍪",
   // ... other options
   description: `Click “Accept” to enable us to use cookies to personalize
                 this site. Customize your preferences in your
-                Cookie Settings or click “Reject” if you do not want us
+                Cookie Settings or click “Reject” if you do not want me
                 to use cookies for this purpose. Learn more in our
-                <a href="/cookies">Cookie Notice</a>.`,
+                <a href="https://www.ninabraunger.de/datenschutz.html">Cookie Notice</a>.`,
 
   buttons: {
     acceptAll: "Accept",
