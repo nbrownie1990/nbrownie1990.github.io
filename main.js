@@ -28,7 +28,6 @@ $(document).ready(function () {
   });
 });
 
-
 //COOKIE CONSENT
 //(Classic)
 const CookieConsent = window.CookieConsent;
@@ -37,10 +36,10 @@ const CookieConsent = window.CookieConsent;
 const cc = new CookieConsent({
   title: "I use cookies 🍪",
   // ... other options
-  description: `Click “Accept” to enable us to use cookies to personalize
+  description: `Click “Accept” to enable me to use cookies to personalize
                 this site. Customize your preferences in your
                 Cookie Settings or click “Reject” if you do not want me
-                to use cookies for this purpose. Learn more in our
+                to use cookies for this purpose. Learn more in my
                 <a href="https://www.ninabraunger.de/datenschutz.html">Cookie Notice</a>.`,
 
   buttons: {
