@@ -952,8 +952,8 @@ input[type="submit"]:hover {
   margin: auto;
 }
 
-.copyright p {
-  font-size: 1.4rem;
+.copyright p a {
+  font-size: 1rem;
 }
 
 .copyright p a {
@@ -1027,6 +1027,9 @@ input[type="submit"]:hover {
   .up {
     right: 5rem;
   }
+}
+.copyright p {
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 768px) {
