@@ -38,7 +38,7 @@ section {
 }
 
 a {
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-decoration: none;
 }
 
@@ -318,8 +318,8 @@ header {
 .fa-linkedin:hover,
 .fa-xing:hover,
 .fa-id-badge:hover,
-.fa-file:hover{
-    -webkit-text-fill-color: var(--primary-color);
+.fa-file:hover {
+  -webkit-text-fill-color: var(--primary-color);
 }
 
 /* End About */
@@ -651,6 +651,10 @@ ul {
   line-height: 1.6;
 }
 
+.cd-horizontal-timeline .events-content p a {
+  color: var(--accent-color);
+}
+
 @-webkit-keyframes cd-enter-right {
   0% {
     opacity: 0;
@@ -754,9 +758,14 @@ ul {
 }
 
 .skill h1 {
+  color: var(--dark-color);
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
   text-transform: uppercase;
+}
+
+.skill p {
+  color: var(--secondary-color);
 }
 
 .icon-container {
@@ -797,7 +806,7 @@ ul {
 }
 
 .skill-box p {
-  color:var(--accent-color);
+  color: var(--accent-color);
   font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
 }
@@ -810,6 +819,10 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 5rem;
+}
+
+.portfolio-item a:hover {
+  -webkit-text-fill-color: var(--primary-color);
 }
 
 .portfolio-item-last-child {
@@ -829,14 +842,14 @@ ul {
 }
 
 .portfolio-description h1 {
-  color: var(--dark-color)
+  color: var(--primary-color);
   font-size: 2rem;
   font-weight: 300;
   margin: 1rem 0;
 }
 
 .portfolio-description h6 {
-  color: var(--dark-shadow-color)
+  color: var(--secondary-color);
   flex: 1;
   font-size: 1.5rem;
   font-weight: 300;
@@ -851,6 +864,11 @@ ul {
   text-transform: uppercase;
   transition: color 0.65s;
 }
+
+.portfolio-description p {
+  color: var(--dark-color);
+}
+
 .portfolio-description .cta:hover {
   color: white;
 }
@@ -1067,7 +1085,7 @@ input[type="submit"]:hover {
     height: 7rem;
   }
 
-  .icon-container .fa{
+  .icon-container .fa {
     position: absolute;
     font-size: 4rem;
     left: -5.25rem;
@@ -1121,13 +1139,13 @@ input[type="submit"]:hover {
     width: 40%;
   }
 
-  .portfolio-img img{
+  .portfolio-img img {
     width: 40%;
     justify-self: center;
     text-align: center;
   }
 
-  .portfolio-description{
+  .portfolio-description {
     text-align: left;
     margin-right: 20rem;
   }
