@@ -980,6 +980,7 @@ input[type="submit"]:hover {
 .cc-box {
   color: #6c63ff;
   border-radius: 2rem;
+  width: 50vw;
 }
 
 .cc-btn {
