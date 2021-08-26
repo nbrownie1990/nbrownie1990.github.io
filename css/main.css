@@ -38,7 +38,7 @@ section {
 }
 
 a {
-  color: var(--primary-color);
+  color: lightgrey;
   text-decoration: none;
 }
 
@@ -937,6 +937,10 @@ input[type="submit"]:hover {
 
 .copyright p {
   font-size: 1.4rem;
+}
+
+.copyright a {
+  color: nav(--primary-color);
 }
 /* End Footer */
 
