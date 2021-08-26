@@ -981,6 +981,7 @@ input[type="submit"]:hover {
   color: #6c63ff;
   border-radius: 2rem;
   width: 60%;
+  float: left;
 }
 
 .cc-btn {
