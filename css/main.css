@@ -38,7 +38,7 @@ section {
 }
 
 a {
-  color: lightgrey;
+  color: #F2F2F2;
   text-decoration: none;
 }
 
@@ -939,8 +939,8 @@ input[type="submit"]:hover {
   font-size: 1.4rem;
 }
 
-.copyright a {
-  color: nav(--primary-color);
+.copyright p a {
+  color: var(--primary-color);
 }
 /* End Footer */
 
