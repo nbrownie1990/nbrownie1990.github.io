@@ -54,14 +54,14 @@ const cc = new CookieConsent({
     essentials: {
       label: "Essential",
       description: `Essential cookies are necessary for features which
-                    are essential to your use of our site or services,
+                    are essential to your use of my site or services,
                     such as account login, authentication, and site security.`,
       checked: true,
       mandatory: true,
     },
     analytics: {
       label: "Analytics",
-      description: `Analytics cookies allow us to analyze your visits and
+      description: `Analytics cookies allow me to analyze your visits and
                     actions on our websites, and offer you a more relevant
                     experience.`,
     },
