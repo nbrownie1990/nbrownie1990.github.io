@@ -183,8 +183,8 @@ header {
 .bar {
   background: linear-gradient(
     to right,
-    var(--secondary-color),
-    var(--accent-color)
+    var(--primary-color),
+    var(--secondary-color)
   );
   border-radius: 0.8rem;
   height: 4px;
