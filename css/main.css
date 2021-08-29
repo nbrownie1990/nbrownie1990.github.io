@@ -529,19 +529,18 @@ ul {
   /* arrow icon */
   content: "";
   position: absolute;
-  height: 16px;
-  width: 16px;
-  left: 50%;
+  height: 20px;
+  width: 12px;
+  left: 60%;
   top: 50%;
   bottom: auto;
   right: auto;
-  z-index: 600;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(images/arrow.svg) no-repeat 0 0;
+  background: url(../images/arrow.svg) no-repeat 0 0;
 }
 
 .cd-timeline-navigation a.prev {
