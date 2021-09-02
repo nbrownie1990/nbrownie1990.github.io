@@ -1184,4 +1184,7 @@ input[type="submit"]:hover {
   .section-heading h1 {
     margin-top: 2rem;
   }
+  .skill-box {
+    margin: 0 15rem 0 15rem;
+  }
 }
