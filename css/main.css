@@ -1052,6 +1052,10 @@ input[type="submit"]:hover {
     padding: 1rem;
   }
 
+  .landing-text {
+    margin-top: 13rem;
+  }
+
   .landing-text h1 {
     font-size: 5rem;
   }
