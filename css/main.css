@@ -1179,3 +1179,9 @@ input[type="submit"]:hover {
     content: "desktop";
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .section-heading h1 {
+    margin-top: 2rem;
+  }
+}
