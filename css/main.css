@@ -252,6 +252,10 @@ header {
 /* End Header */
 
 /* Start About */
+.about{
+  margin-top: 2rem;
+}
+
 .about .grid-container {
   align-items: center;
   display: grid;
