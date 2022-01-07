@@ -661,7 +661,8 @@ ul {
 }
 
 .cd-horizontal-timeline .events-content p a {
-  color: black;
+  color: #4a2fa8;
+  font-style: italic;
 }
 
 @-webkit-keyframes cd-enter-right {
