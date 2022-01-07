@@ -1081,8 +1081,9 @@ input[type="submit"]:hover {
   .journey .grid-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "header header"
-      "image content";
+    "header header"
+    "image image"
+    "content content";
     margin: 4rem;
     justify-content: center;
     align-items: center;
